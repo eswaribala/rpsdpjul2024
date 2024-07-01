@@ -20,12 +20,12 @@ public class Individual : Customer {
     [EnumDataType(typeof(Gender))]
     [DefaultValue(Gender.MALE)]
     [Required]
-    public Gender Gender;
+    public Gender Gender { get; set; }
     [Column("DOB")]
     [DataType(DataType.Date)]
     [DisplayFormat(DataFormatString = "{0:MM dd yyyy}")]
     [Required]
-    public DateTime DOB;
+    public DateTime DOB { get; set; }
 
 
 }
