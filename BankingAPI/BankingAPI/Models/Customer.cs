@@ -10,7 +10,7 @@ using System.Text;
 /// @author Parameswari
 /// </summary>
 [Table("Customer")]
-public abstract class Customer {
+public class Customer {
 
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
