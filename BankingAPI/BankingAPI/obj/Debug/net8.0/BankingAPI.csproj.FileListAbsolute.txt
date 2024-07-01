@@ -30,3 +30,4 @@ F:\Local disk\Inteldpjul2024\BankingAPI\BankingAPI\obj\Debug\net8.0\refint\Banki
 F:\Local disk\Inteldpjul2024\BankingAPI\BankingAPI\obj\Debug\net8.0\BankingAPI.pdb
 F:\Local disk\Inteldpjul2024\BankingAPI\BankingAPI\obj\Debug\net8.0\BankingAPI.genruntimeconfig.cache
 F:\Local disk\Inteldpjul2024\BankingAPI\BankingAPI\obj\Debug\net8.0\ref\BankingAPI.dll
+F:\Local disk\Inteldpjul2024\BankingAPI\BankingAPI\obj\Debug\net8.0\BankingAPI.sourcelink.json

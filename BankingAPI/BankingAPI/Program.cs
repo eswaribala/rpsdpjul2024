@@ -10,11 +10,11 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 //Liskov Substitution
 //parent
-Customer customer=new Customer();
+//Customer customer=new Customer();
 //child
 //customer = new Individual();
 //child
-customer = new Corporate();
+Customer customer = new Corporate();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
