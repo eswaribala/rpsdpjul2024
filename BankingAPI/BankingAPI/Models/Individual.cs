@@ -12,9 +12,9 @@ public class Individual : Customer {
 
     
 
-    public Gender gender;
+    public Gender Gender;
 
-    public DateTime dob;
+    public DateTime DOB;
 
 
 }

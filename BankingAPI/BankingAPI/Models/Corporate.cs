@@ -10,8 +10,8 @@ using System.Text;
 /// </summary>
 public class Corporate : Customer {
 
-    public CompanyType companyType {  get; set; }
+    public CompanyType CompanyType {  get; set; }
 
-    public long odLimit {  get; set; }
+    public long ODLimit {  get; set; }
 
 }

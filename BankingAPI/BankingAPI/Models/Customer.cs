@@ -7,7 +7,7 @@ using System.Text;
 /// <summary>
 /// @author Parameswari
 /// </summary>
-public class Customer {
+public abstract class Customer {
 
    
     public long AccountNo { get; set; }
