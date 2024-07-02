@@ -8,7 +8,8 @@ namespace LazySingletonApp
 {
     public class LazySingleton
     {
-        //This variable value will be increment by 1 each time the object of the class is created
+        //This variable value will be increment by 1 each time the object
+        //of the class is created
         private static int Counter = 0;
         // The private static instance ensures lazy initialization.
         private static readonly Lazy<LazySingleton> instance = new Lazy<LazySingleton>(() => new LazySingleton());
@@ -32,7 +33,8 @@ namespace LazySingletonApp
         }
         static void Main(string[] args)
         {
-            //The following Code will Invoke both methods Parallely using two different Threads
+            //The following Code will Invoke both methods Parallely using two different
+            //Threads
             Parallel.Invoke(
                 //Let us Assume PrintTeacherDetails method is Invoked by Thread-1
                 () => PrintTeacherDetails(),

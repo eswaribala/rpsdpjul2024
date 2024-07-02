@@ -10,7 +10,7 @@ namespace FactoryPatternApp
     {
         static void Main(string[] args)
         {
-            CreditCard cardDetails = CreditCardFactory.GetCreditCard("Platinum");
+            CreditCard cardDetails = CreditCardFactory.GetCreditCard("MoneyBack");
 
             if (cardDetails != null)
             {

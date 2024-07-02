@@ -27,6 +27,13 @@ namespace AbstractFactoryDesignPatternApp
         {
             Console.WriteLine("Fetching RegularBike Details..");
         }
+
+        public void GetSpeedLimit()
+        {
+            Console.WriteLine("Limit 80 kms");
+        }
+
+
     }
     // The ProductB1 class
     // Concrete Products are going to be created by corresponding Concrete Factories.
@@ -114,7 +121,15 @@ namespace AbstractFactoryDesignPatternApp
             IVehicleFactory regularVehicleFactory = new RegularVehicleFactory();
             //regularVehicleFactory.CreateBike() will create and return Regular Bike
             IBike regularBike = regularVehicleFactory.CreateBike();
-            regularBike.GetDetails();
+            //regularBike.GetDetails();
+             
+            if (regularBike is RegularBike)
+            {
+                RegularBike regularBike1 = (RegularBike)regularBike;
+                regularBike1.GetDetails();
+                regularBike1.GetSpeedLimit();
+            }
+
             //regularVehicleFactory.CreateCar() will create and return Regular Car
             ICar regularCar = regularVehicleFactory.CreateCar();
             regularCar.GetDetails();
