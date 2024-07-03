@@ -71,8 +71,10 @@ namespace MementoPatternApp
             history.SaveState(account);  // Balance: 1050
             // Oops! That last withdrawal was a mistake. Let's undo it.
             account.RestoreFromMemento(history.UndoTransaction());
+           // account.RestoreFromMemento(history.UndoTransaction());
+            //account.RestoreFromMemento(history.UndoTransaction());
             Console.WriteLine($"Current Balance: ${account.Balance}");
-            // Outputs: Current Balance: $1100.00
+            // Outputs: Current Balance: $1050.00
             Console.ReadKey();
         }
     }

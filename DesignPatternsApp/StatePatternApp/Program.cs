@@ -93,6 +93,7 @@
         }
         public void SetState(IOrderState state)
         {
+            Console.WriteLine(_currentState.ToString());
             _currentState = state;
         }
         public void NextState()
