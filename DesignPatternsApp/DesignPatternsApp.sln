@@ -57,33 +57,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPatternApp", "Itera
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPatternApp", "MediatorPatternApp\MediatorPatternApp.csproj", "{0CCAA2F4-2B50-4CFE-92C8-396B1AF545A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPatternApp", "MementoPatternApp\MementoPatternApp.csproj", "{8E6896F8-F9AB-4728-8C69-D79D0ABB1059}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPatternApp", "MementoPatternApp\MementoPatternApp.csproj", "{8E6896F8-F9AB-4728-8C69-D79D0ABB1059}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoCartApp", "MementoCartApp\MementoCartApp.csproj", "{D667366D-F724-47C4-AA8B-06AC3D633EF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoCartApp", "MementoCartApp\MementoCartApp.csproj", "{D667366D-F724-47C4-AA8B-06AC3D633EF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternApp", "ObserverPatternApp\ObserverPatternApp.csproj", "{3CB30861-CBF2-4C0C-B783-F0A56BA26D91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPatternApp", "ObserverPatternApp\ObserverPatternApp.csproj", "{3CB30861-CBF2-4C0C-B783-F0A56BA26D91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverTraderPatternApp", "ObserverTraderPatternApp\ObserverTraderPatternApp.csproj", "{64B94ADA-F8B6-4D1A-8B89-3B8A50DCAEE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverTraderPatternApp", "ObserverTraderPatternApp\ObserverTraderPatternApp.csproj", "{64B94ADA-F8B6-4D1A-8B89-3B8A50DCAEE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePatternApp", "StatePatternApp\StatePatternApp.csproj", "{385B01C8-4873-4E5A-9E03-F47723506C44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePatternApp", "StatePatternApp\StatePatternApp.csproj", "{385B01C8-4873-4E5A-9E03-F47723506C44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateATMPatternApp", "StateATMPatternApp\StateATMPatternApp.csproj", "{F7562865-15F6-4459-89AF-02FB492BE7C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateATMPatternApp", "StateATMPatternApp\StateATMPatternApp.csproj", "{F7562865-15F6-4459-89AF-02FB492BE7C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObjectPatternApp", "NullObjectPatternApp\NullObjectPatternApp.csproj", "{EE494585-53D8-4F60-9CB3-62619F3E7253}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObjectPatternApp", "NullObjectPatternApp\NullObjectPatternApp.csproj", "{EE494585-53D8-4F60-9CB3-62619F3E7253}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPatternApp", "StrategyPatternApp\StrategyPatternApp.csproj", "{93C009E5-D5F3-49B8-9F0F-8ABF163D6901}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPatternApp", "StrategyPatternApp\StrategyPatternApp.csproj", "{93C009E5-D5F3-49B8-9F0F-8ABF163D6901}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodDesignPattern", "TemplateMethodDesignPattern\TemplateMethodDesignPattern.csproj", "{5830BFBB-369F-4517-BDD3-FD80B525B9A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethodDesignPattern", "TemplateMethodDesignPattern\TemplateMethodDesignPattern.csproj", "{5830BFBB-369F-4517-BDD3-FD80B525B9A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateOrderPatternApp", "TemplateOrderPatternApp\TemplateOrderPatternApp.csproj", "{ADAF237E-5A19-4819-8CAA-72BCEAA17B50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateOrderPatternApp", "TemplateOrderPatternApp\TemplateOrderPatternApp.csproj", "{ADAF237E-5A19-4819-8CAA-72BCEAA17B50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPatternApp", "VisitorPatternApp\VisitorPatternApp.csproj", "{6249DEC1-4330-4CA3-BB8C-A8FF44351F35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorPatternApp", "VisitorPatternApp\VisitorPatternApp.csproj", "{6249DEC1-4330-4CA3-BB8C-A8FF44351F35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorTicketPatternApp", "VisitorTicketPatternApp\VisitorTicketPatternApp.csproj", "{7217D307-208A-43F6-A4D4-FDB10418DBA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorTicketPatternApp", "VisitorTicketPatternApp\VisitorTicketPatternApp.csproj", "{7217D307-208A-43F6-A4D4-FDB10418DBA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterceptingFilterPatternApp", "InterceptingFilterPatternApp\InterceptingFilterPatternApp.csproj", "{6DF6A4EA-080F-4699-B865-C3513F520105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterceptingFilterPatternApp", "InterceptingFilterPatternApp\InterceptingFilterPatternApp.csproj", "{6DF6A4EA-080F-4699-B865-C3513F520105}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransferObjectPatternApp", "TransferObjectPatternApp\TransferObjectPatternApp.csproj", "{F7990639-067F-48E5-91E9-918527CA8CC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransferObjectPatternApp", "TransferObjectPatternApp\TransferObjectPatternApp.csproj", "{F7990639-067F-48E5-91E9-918527CA8CC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -116,7 +116,7 @@ namespace InterpreterPatternApp
             {
                 new Product { Brand = "Nike", Color = "blue", Price = 150M },
                 new Product { Brand = "Adidas", Color = "red", Price = 90M },
-                new Product { Brand = "Nike", Color = "black", Price = 250M },
+                new Product { Brand = "Nike", Color = "blue", Price = 250M },
                 // ... other products
             };
             var query = "brand:Nike; color:blue; minprice:100; maxprice:300";

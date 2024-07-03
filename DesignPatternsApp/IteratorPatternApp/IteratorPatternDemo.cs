@@ -11,6 +11,8 @@ namespace IteratorPatternApp
     {
         public string Name { get; private set; }
         public string ID { get; private set; }
+
+        public Course Course { get; set; }
         public Student(string name, string id)
         {
             Name = name;
@@ -30,9 +32,21 @@ namespace IteratorPatternApp
     //Implement a concrete aggregate, Course, and the collection University:
     public class Course : IAggregate<Student>
     {
+        public string Name { get; set; }
         private List<Student> _students = new List<Student>();
+
+        public Course()
+        {
+        }
+
+        public Course(string name)
+        {
+            Name = name;
+        }
+
         public void RegisterStudent(Student student)
         {
+            student.Course = this;
             _students.Add(student);
         }
         public IIterator<Student> CreateIterator()
@@ -53,7 +67,7 @@ namespace IteratorPatternApp
             }
             public Student Next()
             {
-                return _course._students[_currentIndex++];
+                return  _course._students[_currentIndex++];
             }
         }
     }
@@ -109,10 +123,10 @@ namespace IteratorPatternApp
     {
         static void Main()
         {
-            var mathsCourse = new Course();
+            var mathsCourse = new Course("Maths");
             mathsCourse.RegisterStudent(new Student("Pranaya", "1001"));
             mathsCourse.RegisterStudent(new Student("Rout", "1002"));
-            var physicsCourse = new Course();
+            var physicsCourse = new Course("Physics");
             physicsCourse.RegisterStudent(new Student("Anurag", "1003"));
             var university = new University();
             university.AddCourse(mathsCourse);
@@ -121,7 +135,7 @@ namespace IteratorPatternApp
             while (iterator.HasNext())
             {
                 var student = iterator.Next();
-                Console.WriteLine($"Name: {student.Name}, ID: {student.ID}");
+                Console.WriteLine($"Name: {student.Name}, ID: {student.ID}, CourseName : {student.Course.Name}");
             }
 
             Console.ReadLine();
