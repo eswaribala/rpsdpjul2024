@@ -25,7 +25,7 @@ using Prometheus;
 var builder = WebApplication.CreateBuilder(args);
 var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 //step to add config server
-builder.Configuration.AddConfigServer();
+//builder.Configuration.AddConfigServer();
 ConfigurationManager configuration = builder.Configuration;
 //var Url = configuration["awsvaulturl"].ToString();
 //var RootKey = configuration["rootkey"].ToString();
@@ -50,6 +50,7 @@ builder.Services.AddControllers()
 //IDictionary<string, Object> jwtResult = new VaultConfiguration(configuration)
   // .GetJWTSecrets(RootKey, Url).Result;
 
+var SecretData= configuration["JWT:Secret"];
 //var data = _configuration["Secret"];
 //var SecretData = jwtResult["secret"].ToString();
 SqlConnectionStringBuilder providerCs
@@ -175,7 +176,7 @@ builder.Services.AddAuthentication(options =>
         ValidateAudience = true,
         ValidAudience = configuration["JWT:ValidAudience"],
         ValidIssuer = configuration["JWT:ValidIssuer"],
-       // IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(SecretData))
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(SecretData))
     };
 });
 

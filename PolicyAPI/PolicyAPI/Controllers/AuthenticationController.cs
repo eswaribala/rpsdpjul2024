@@ -150,13 +150,13 @@ namespace PolicyAPI.Controllers
             //Dictionary<string, Object> data = new VaultConfiguration(_configuration)
             //     .GetSecret().Result;
 
-            var Url = _configuration["awsvaulturl"].ToString();
-            var RootKey = _configuration["rootkey"].ToString();
-            IDictionary<string, Object> result = new VaultConfiguration(_configuration)
-    .GetJWTSecrets(RootKey, Url).Result;
+          //  var Url = _configuration["awsvaulturl"].ToString();
+          //  var RootKey = _configuration["rootkey"].ToString();
+           // IDictionary<string, Object> result = new VaultConfiguration(_configuration)
+    //.GetJWTSecrets(RootKey, Url).Result;
 
              //var data = _configuration["Secret"];
-             var data = result["secret"].ToString();
+             var data = _configuration["JWT:Secret"];
             var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.
                 GetBytes(data));
 
